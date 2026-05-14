@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Session Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📚 Study Session Tracker</h1>
+
+        <div class="input-section">
+
+            <input type="text" id="subject" placeholder="Enter Subject">
+
+            <input type="text" id="topic" placeholder="Enter Topic">
+
+        </div>
+
+        <div class="timer-section">
+
+            <h2 id="timer">00:00:00</h2>
+
+            <div class="buttons">
+                <button id="startBtn">Start</button>
+                <button id="stopBtn">Stop</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+
+        </div>
+
+        <div class="session-section">
+
+            <h2>Today's Sessions</h2>
+
+            <ul id="sessionList"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
