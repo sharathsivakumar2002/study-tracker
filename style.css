@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    width: 450px;
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.timer-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#timer {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#startBtn {
+    background: #28a745;
+    color: white;
+}
+
+#stopBtn {
+    background: #dc3545;
+    color: white;
+}
+
+#resetBtn {
+    background: #007bff;
+    color: white;
+}
+
+.session-section {
+    margin-top: 35px;
+}
+
+.session-section h2 {
+    margin-bottom: 15px;
+}
+
+#sessionList {
+    list-style: none;
+}
+
+#sessionList li {
+    background: #2a2a2a;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
